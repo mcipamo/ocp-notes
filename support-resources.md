@@ -1,7 +1,7 @@
-## Support Resources for Openshift 
+# Support Resources for Openshift 
 
-#### Openshift ROSA with Private Link
- > #### 1. How can I assist if the customer has lost access to the OpenShift cluster via both the console and the API?
+### Openshift ROSA with Private Link
+#### 1. How can I assist if the customer has lost access to the OpenShift cluster via both the console and the API?
 
 - Check the cluster with ocm backplane, if the cluster is healthy, the issue is on the customer side.
 - Suggest the customer to check the following Items:
@@ -14,7 +14,7 @@ References:
 - [Getting started with ROSA classic using AWS PrivateLink](https://docs.aws.amazon.com/rosa/latest/userguide/getting-started-private-link.html)
 - [Troubleshoot ROSA cluster creation issues](https://docs.aws.amazon.com/rosa/latest/userguide/troubleshoot-rosa-cluster-provisioning.html)
 
-> #### 2. OpenShift commands - Tips
+#### 2. OpenShift commands - Tips
 
 **Check nodes:**
 ~~~
