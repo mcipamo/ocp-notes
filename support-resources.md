@@ -52,10 +52,10 @@ Example:
           startedAt: "2023-06-12T10:34:56Z"
           finishedAt: "2023-06-12T10:35:00Z"
 ```
-When filtering with grep -i "Exit code", you would get:
+When filtering with grep -i "code", you would get:
 
-```
-exitCode: 1
-exitCode: 0
-exitCode: 137
-```
+\``` yaml
+Exit<span style="color:red">code</span>: 1
+Exit<span style="color:red">code</span>: 0
+Exit<span style="color:red">code</span>: 137
+\```
