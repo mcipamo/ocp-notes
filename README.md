@@ -1,0 +1,1 @@
+In this repo, you could find information as reference for OpenShift and possible commands to troubleshoot.
