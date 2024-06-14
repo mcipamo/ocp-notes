@@ -54,7 +54,7 @@ Example:
 ```
 When filtering with grep -i "code", you would get:
 
-\
-Exit<span style="color:red">code</span>: 1
-Exit<span style="color:red">code</span>: 0
-Exit<span style="color:red">code</span>: 137
+
+exit<span style="color:red">code</span>: 1
+exit<span style="color:red">code</span>: 0
+exit<span style="color:red">code</span>: 137
