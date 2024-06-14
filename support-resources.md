@@ -11,6 +11,18 @@
   - [ ] [DNS forwarding](https://docs.aws.amazon.com/rosa/latest/userguide/getting-started-private-link.html#getting-started-private-link-step-4)
   - [ ] Route 53 Resolver inbound endpoint
 
+Commands:
+
+~~~
+curl -v https://api.ocp-xxx-xxx.xxxx.xx.openshiftapps.com:6443
+
+curl -v https://console-openshift-console.apps.ocp-xxx-zzz.yyy.xx.openshiftapps.com
+
+sudo nmap -p 6443 --traceroute -Pn api.ocp-xxxx.xxx.xx.openshiftapps.com
+
+sudo tcptraceroute api.ocp-xxx.xxx.xx.openshiftapps.com 6443
+~~~
+
 References: 
 - [Getting started with ROSA classic using AWS PrivateLink](https://docs.aws.amazon.com/rosa/latest/userguide/getting-started-private-link.html)
 - [Troubleshoot ROSA cluster creation issues](https://docs.aws.amazon.com/rosa/latest/userguide/troubleshoot-rosa-cluster-provisioning.html)
