@@ -1,7 +1,7 @@
 ## Support Resources for Openshift 
 
 #### Openshift ROSA with Private Link
- > 1. **What can I do if the customer has lost access to the OpenShift cluster through the console and even through the API?**
+ > 1. **How can I assist if the customer has lost access to the OpenShift cluster via both the console and the API?**
 
 - Check the cluster with ocm backplane, if the cluster is healthy, the issue is on the customer side.
 - Suggest the customer to check the following Items:
