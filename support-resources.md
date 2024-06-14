@@ -30,7 +30,7 @@ $ oc get pods
 $ oc adm top pods
 ~~~
 
-Validate whole pods in a namespace:
+Check all pods in a namespace for validation::
 
 If you have several pods with failures, you can check the Exit code for each pod and troubleshoot.
 ~~~
