@@ -5,6 +5,7 @@
 
 - Check the cluster with ocm backplane, if the cluster is healthy, the issue is on the customer side.
 - Suggest the customer to check the following Items:
+
   - [ ] VPN
   - [ ] [AWS firewall prerrequisites](https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/prepare_your_environment/rosa-sts-aws-prereqs#osd-aws-privatelink-firewall-prerequisites_rosa-sts-aws-prereqs)
   - [ ] [DNS forwarding](https://docs.aws.amazon.com/rosa/latest/userguide/getting-started-private-link.html#getting-started-private-link-step-4)
